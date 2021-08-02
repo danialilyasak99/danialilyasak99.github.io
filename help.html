@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Help</title>
+<link rel="icon" href="iconlogo.png">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+
+}
+
+
+
+/* Right column */
+.rightcolumn {
+  width: 50%;
+  padding-left: 20px;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style3.css">
+<link rel="stylesheet" href="style4.css">
+<link rel="stylesheet" href="productcard.css">
+
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="topnav" id="myTopnav">
+	<div class="vertical-center">
+		<a href="front.html">Home</a>
+		<a href="about.html">About</a>
+			
+		 <a href="help.html" style="float:right;">Help</a>
+		 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<!-- Navbar (sit on top) -->
+
+</head>
+
+<!-- HEAD -->
+
+
+<!-- BODY -->
+
+<body style="font-family:helvetica;" >
+
+
+<p style="  font-size: 40px;  text-align:center; color:black; letter-spacing: 1px;"> <b> CONTACT INFORMATION </b> </p>
+
+<body>
+
+  
+  <center>
+  <div class="rightcolumn">
+ 
+    <div class="card">
+		<br>
+		<p style="   font-size: 30px;  text-align:center;"> 
+		Need Help? Contact Us!
+		</p>
+	  <br> </br>
+		
+	<center>
+	<img border="0" alt="wavytechnologieslogo" src="wavytechnologies.jpg" style="width:25%;">
+	<center>  
+	 
+	 <p style=" font-size: 20px;  text-align:center;  letter-spacing: 1px;"> 
+	  Please contact us directly via phone or email if you enconter any problems such as bugs.</p>
+	  
+      <div> 
+		
+
+	  
+	  <a target="_blank" href="call.png">
+      <img src="call.png" alt="call" height="100"> 
+	  </a> 
+	  <p style="  font-size: 20px;  text-align:center; letter-spacing: 1px;"> 
+	  Office: +6033366901 <br> Helpdesk: +6033366202
+	  </p>
+	  
+	  <a target="_blank" href="email.png">
+      <img src="email.png" alt="email" height="100"> 
+	  </a> 
+	  <p style="  font-size: 20px;  text-align:center;  letter-spacing: 1px;"> 
+	  Email: wavytechnologies@support.com
+	  </p>
+	    
+	 
+	  </div>
+
+    </div>
+  </div>
+</div>
+<center>
+
+</body>
+
+<!-- FOOTER -->
+<footer>
+<center>
+<table bgcolor="#fec107" style="width:100%; font-family:helvetica; font-size:60%">
+
+
+<tr>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>
+<p style="font-family:garamond; text-align:center; color:#ffffff; letter-spacing: 1px; text-decoration: none;">
+
+  <a style="text-decoration:none; color:#ffffff;" href="faq.html"> FAQ </a>&nbsp;&nbsp;
+  <a style="text-decoration:none; color:#ffffff;" href="tnc.html"> TERMS & CONDITIONS </a>&nbsp;&nbsp;
+	<a style="text-decoration:none; color:#ffffff;" href="site.html"> SITE MAP </a>
+  
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<p style="font-family:garamond; text-align:center; color:#ffffff; letter-spacing: 1px;">
+2021 © BLUE OASIS. ALL WORLDWIDE RIGHTS RESERVED.</p>
+</td>
+</tr>
+
+
+</table>
+</center>
+</footer>
+<!-- FOOTER -->
+
+</body>
+</html>
